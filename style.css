@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: xx-large;
+    font-family: "Press Start 2P", cursive;
+    margin: auto;
+  }
+  
+  .section {
+    background-color: rgb(203, 203, 203);
+    width: 480px;
+    height: 480px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: flex-start;
+  }
+  
+  .cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(203, 203, 203);
+    width: 60px;
+    height: 60px;
+    border: dotted;
+  }
+  
+  .blue {
+    color: blue;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .main {
+    border-top: ridge 15px #d6d6d6;
+    border-left: ridge 15px #d6d6d6;
+    border-bottom: ridge 15px#fdfefd;
+    border-right: 15px solid white;
+  }
+  
+  .case {
+    box-shadow: inset 0px 0px 2px 1px rgba(0, 0, 0, 1);
+    border-bottom: 2px solid black;
+    border-right: 2px solid black;
+    color: transparent;
+  }
+  
+  .case:hover {
+    color: inherit;
+  }
+  
+  .bordure {
+    border: 1px solid black;
+  }
+  
+  .one:hover {
+    color: blue;
+  }
+  
+  .two:hover {
+    color: green;
+  }
+  
+  .three:hover {
+    color: red;
+  }
+  
